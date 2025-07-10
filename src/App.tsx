@@ -4,6 +4,7 @@ import {
   Route,
   Outlet,
 } from "react-router-dom";
+import { Container } from "@mui/material";
 
 import LandingPage from "./pages/LandingPage";
 import "./App.css";
@@ -11,10 +12,12 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="*" element={<LandingPage />} />
-      </Routes>
-      <Outlet />
+      <Container>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+        </Routes>
+        <Outlet />
+      </Container>
     </Router>
   );
 }

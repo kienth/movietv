@@ -49,6 +49,23 @@ let theme = createTheme({
       color: "gray",
     },
   },
+  palette: {
+    text: {
+      primary: "#323941", // Set the primary text color
+    },
+    primary: {
+      main: "#18181B",
+      contrastText: "#F4F4F5",
+      light: "#2E2E32",
+      dark: "#0F0F11",
+    },
+    secondary: {
+      main: "#3F3F46",
+      contrastText: "#F4F4F5",
+      light: "#52525B",
+      dark: "#27272A",
+    },
+  },
 });
 
 theme = responsiveFontSizes(theme);
