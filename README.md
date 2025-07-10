@@ -22,26 +22,25 @@ Follow these steps to run the frontend locally:
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/movietv-app.git
-cd movietv-app/client
+`git clone https://github.com/kienth/movietv.git`
 
-### 2. Install Dependencies
+### 2️⃣ Install Dependencies
 
-$npm install
+`npm install`
 
 This will install all required dependencies.
 
-### 3. Configure Environment Variables
+### 3️⃣ Configure Environment Variables
 
 Create a .env file in the client folder and add the following line:
-VITE_API=http://localhost:3000/api
+`VITE_API=http://localhost:3000/api`
 
 This sets the base URL for your backend API.
 ⚠️ Make sure your backend is running on http://localhost:3000
 
-### 3. Run the Development Server
+### 4️⃣ Run the Development Server
 
-$npm run dev
+`npm run dev`
 
 This will start the app at:
 🌐 http://localhost:5173
