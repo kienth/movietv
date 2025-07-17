@@ -23,6 +23,7 @@ Follow these steps to run the frontend locally:
 ### 1️⃣ Clone the Repository
 
 `git clone https://github.com/kienth/movietv.git`
+`cd movietv`
 
 ### 2️⃣ Install Dependencies
 
