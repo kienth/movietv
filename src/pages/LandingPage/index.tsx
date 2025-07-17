@@ -9,7 +9,7 @@ import {
 import { useGeneral } from "../../redux/generalHook";
 import Header from "./components/Header";
 import Filter from "./components/Filter";
-import Card from "./components/Card";
+// import Card from "./components/Card";
 import CustomTable from "./components/CustomTable";
 import Modal from "./components/Modal";
 import type { ILandingPage } from "./_landingPage";
@@ -117,7 +117,7 @@ const LandingPage = () => {
       <Stack spacing={3}>
         <Header />
         <Filter handleOpen={handleOpen} />
-        <Card />
+        {/* <Card /> */}
         <Box>
           <CustomTable
             isError={isError}
