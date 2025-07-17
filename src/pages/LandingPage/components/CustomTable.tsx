@@ -231,7 +231,7 @@ const CustomTable = (props: ICustomTable) => {
                             }).then((result) => {
                               if (result.isConfirmed) {
                                 generalAction({
-                                  url: `/movietv/${column.id}`,
+                                  url: `/${column.id}`,
                                   method: "DELETE",
                                 }).then((e) => {
                                   if (e.data) {

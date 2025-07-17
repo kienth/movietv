@@ -52,7 +52,7 @@ const LandingPage = () => {
     isSuccess,
     isError,
   } = useGeneral({
-    url: `/movietv${location.search}`,
+    url: `/${location.search}`,
     method: "GET",
     disableFetch: location.search === "",
   });

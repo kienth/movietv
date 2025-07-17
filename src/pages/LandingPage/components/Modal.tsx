@@ -69,7 +69,7 @@ const Modal = (props: IModal) => {
     validationSchema: schema,
     onSubmit: (values) => {
       generalAction({
-        url: `/movietv${props.id !== null ? `/${props.id}` : ""}`,
+        url: `${props.id !== null ? `/${props.id}` : "/"}`,
         method: props.id !== null ? "PUT" : "POST",
         body: values,
       });

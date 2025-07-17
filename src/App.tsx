@@ -15,6 +15,7 @@ function App() {
       <Container>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/:id" element={<LandingPage />} />
         </Routes>
         <Outlet />
       </Container>
